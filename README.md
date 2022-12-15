@@ -54,8 +54,8 @@ Quick commands in RHEL7 to create and email HTML report of most recent OpenSCAP 
    
    In this case, they appear to remove the CVE check from their oval file as there is "no missing patch" (per bugzilla.redhat.com) so the vulnerability doesn't show in the report as missing because they have internally agreed to ignore the issue. I don't think this is responsible vendor behavior, and would love Congress or regulators take a look at how many vendors knowingly take steps to give false positive that your staff has addressed all available patches, rather just the patches they are willing to ship.
    
-   In RHEL7, a great example is "mpfr" while not used a lot, RH (and Ubuntu): 1.2 scorre, but
-   CVSS v2 has 7.5 and CVSS v3 has 9.8 (I'm recently told) and demand to patch mpfr 3.1.2-patch11 or greater.
+   In RHEL7, a great example is "mpfr" while not used a lot, RH (and Ubuntu): rate it a LOW (1.2) score, but
+   CVSS v2 has 7.5 score, and CVSS v3 rate it a 9.8 score (as I'm recently told) and the NVD/CVE response is to demand to patch mpfr 3.1.2-patch11 or greater.
 
    In bugzilla.redhat.com, Red Hat simple saw its LOW and "WONTFIX" status despite the most meager about
    of work to just patch and ship with RHEL7 updates.
