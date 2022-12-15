@@ -20,10 +20,10 @@ fi
 rm ~/scans/rhel-7.oval.xml
 
 # get latest
-wget -O -f https://www.redhat.com/security/data/oval/v2/RHEL7/rhel7-oval.xml.bz2 | bzip2 --decompress > rhel-7.oval.xml
+wget -O - https://www.redhat.com/security/data/oval/v2/RHEL7/rhel7-oval.xml.bz2 | bzip2 --decompress > rhel-7.oval.xml
 
 # run oscal and generate (after some time) the the HTML report
-oscal oval eval --report vulnerability-$(currdate)-$(hostname -s).html thel-7.oval.xml
+oscap oval eval --report vulnerability-$(currdate)-$(hostname -s).html rhel-7.oval.xml
 
 mail -s "openscap-scanner results (post RHSA-$(currdate)) - $(hostname -s)" -a $(ls -t1 vul*html) your.email@gmail.com
 
