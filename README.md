@@ -46,8 +46,8 @@ Quick commands in RHEL7 to create and email HTML report of most recent OpenSCAP 
      
 ## TODO
  
-   -- provide crosslinks with related bash patching repos (not uploaded yet)
-   -- [IN PROGRESS] combining lxc and openscap for Alma Linux 9 cloud image (status: 70%) - 12/15 PM
+   - provide crosslinks with related bash patching repos (not uploaded yet)
+   - [IN PROGRESS] combining lxc and openscap for Alma Linux 9 cloud image (status: 70%) - 12/15 PM
    
 ## ISSUES
 
