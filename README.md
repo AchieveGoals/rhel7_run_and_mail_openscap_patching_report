@@ -11,7 +11,8 @@ Quick commands in RHEL7 to create and email HTML report of most recent OpenSCAP 
      3. any other non-security patch
      
      In this part 1 of at least 2 rhel7 patching repo, I want to demonstrate a few commands, 
-     provided you have access and can download the [RHEL7 "rhel7.oval.xml.bz2" file](https://www.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2).
+     provided you have access and can download the [RHEL7 "rhel7.oval.xml.bz2" file]
+     (https://www.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2).
      
 ## Before using this script
 
