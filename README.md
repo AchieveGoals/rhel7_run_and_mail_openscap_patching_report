@@ -52,7 +52,7 @@ Quick commands in RHEL7 to create and email HTML report of most recent OpenSCAP 
 
    One growing issue is how RedHat tends to downplay CVE/NVD scores from 7 to 9.5, and rate them as 1.2 (LOW).
    
-   In this case, they appear to remove the CVE check from their oval file as there is "no missing patch" (per bugzilla.redhat.com) so the vulnerability doesn't show in the report as missing because they have internally agreed to ignore the issue. I don't this is responsible and would love Congress or regulators to see how many vendors knowingly take steps to give false positive you have addresses all available patches, rather just the patches they are willing to ship.
+   In this case, they appear to remove the CVE check from their oval file as there is "no missing patch" (per bugzilla.redhat.com) so the vulnerability doesn't show in the report as missing because they have internally agreed to ignore the issue. I don't think this is responsible vendor behavior, and would love Congress or regulators take a look at how many vendors knowingly take steps to give false positive that your staff has addressed all available patches, rather just the patches they are willing to ship.
    
    In RHEL7, a great example is "mpfr" while not used a lot, RH (and Ubuntu): 1.2 scorre, but
    CVSS v2 has 7.5 and CVSS v3 has 9.8 (I'm recently told) and demand to patch mpfr 3.1.2-patch11 or greater.
