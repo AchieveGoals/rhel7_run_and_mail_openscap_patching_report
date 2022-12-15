@@ -3,6 +3,15 @@
 # Name: generate_openscap_RHEL6_HTML_report.sh
 # Larry Timmins  / gh/AchieveGoals contributor
 
+# To run:
+#    bash generate_openscap_RHEL7_html_report.sh
+
+# 12-11-2022 commit
+# Larry Timmins, larry.timmins@gmail.com, 12-01-2022 
+# License: Apache 2.0 (see NOTICE file)
+# Non-commercial use only; any other use must get written permission from author
+
+
 ## housekeeping
 rhdate=$(date +"%Y%m%d-%H%M%S")
 #echo $rhdate
