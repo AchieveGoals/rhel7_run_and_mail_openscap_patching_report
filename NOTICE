@@ -1,0 +1,20 @@
+All OSHowTo Scripts are copyrighted by Larry Timmins.
+
+Non-commercial use is acceptable provided this NOTICE file accompanies all full or partial use or link backs to this repository.
+
+Author:  Larry Timmins, Garden City NY
+         larry.timmins@gmail.com
+         achieveyournextgoal@gmail.com
+         
+Purpose: I wanted to have reference bash commands to obtain latest OpenSCAP from Red Hat, then 
+     create HTML report which is then emailed to your admins, etc.
+     
+     A fictional email will be substituted in this script - please change to your lab's or company's email
+     
+     Provided AS IS, but with my RHEL subscription, it has worked flawlessly to the extent that Red Hat
+     doesn't filter out actual CVE vulnerabilitys that it determines in bugzilla it will not fix. 
+     
+     This script provides bash commands asuiming you can download:
+       "https://www.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+     
+     Comments welcomed.
