@@ -5,7 +5,8 @@
 
 
 ## housekeeping
-alias rhcurrdate="date +%Y%m%d-%H%M%S"
+rhcurrdate="date +%Y%m%d-%H%M%S"
+echo $(rhcurrdate)
 
 ## 
 cd
