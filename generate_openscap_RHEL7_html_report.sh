@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 # I also use bash <filename>, you can use start your bash script as you prefer
-# Name: generate_openscap_RHEL6_HTML_report.sh
+# Name: generate_openscap_RHEL7_HTML_report.sh
 # Larry Timmins  / gh/AchieveGoals contributor
 
 # To run:
