@@ -49,6 +49,19 @@ Quick commands in RHEL7 to create and email HTML report of most recent OpenSCAP 
    - provide crosslinks with related bash patching repos (not uploaded yet)
    - [IN PROGRESS] combining lxc and openscap for Alma Linux 9 cloud image (status: 70%) - 12/15 PM
    
+## RELATED Articles
+
+Link: https://www.redhat.com/en/blog/using-openscap-help-achieve-hipaa-compliance-red-hat-enterprise-linux-83
+Has example for RHEL 8.3:
+```
+# yum install openscap-scanner scap-security-guide
+
+# oscap xccdf eval --fetch-remote-resources --profile xccdf_org.ssgproject.content_profile_hipaa --results /tmp/scan.xml /usr/share/xml/scap/ssg/content/ssg-rhel8-ds.xml
+
+# oscap xccdf generate report /tmp/scan.xml > /tmp/report.html
+```
+
+   
 ## ISSUES
 
    One growing issue is how RedHat tends to downplay CVE/NVD scores from 7 to 9.5, and rate them as 1.2 (LOW).
