@@ -58,9 +58,7 @@ Quick commands in RHEL7 to create and email HTML report of most recent OpenSCAP 
    In RHEL7, a great example is "mpfr" while not used a lot, RH (and Ubuntu): rate it a LOW (1.2) score, but
    CVSS v2 has 7.5 score, and CVSS v3 rate it a 9.8 score (as I'm recently told) and the NVD/CVE response is to demand to patch mpfr 3.1.2-patch11 or greater.
 
-   In bugzilla.redhat.com, Red Hat simple saw its LOW and "WONTFIX" status despite the most meager about
+   In bugzilla.redhat.com, Red Hat simply states issue is LOW and "WONTFIX" status despite the most meager amount
    of work to just patch and ship with RHEL7 updates.
    
    Controversy?   Not sure.   Most MDR and vulnerability scanning vendors recommend patch OR dispose mpfr rather than living with this vulnerability.   Is this a reaction to IBM purchase of REDHAT?  Don't know.  Is this a one off?  For RHEL 7.9 and newer, openssh, openssl and many other libraries are in the same WONTFIX status for know vulnerabilities.  TO BE CONTINUED??? 
-   
-     
