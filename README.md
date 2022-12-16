@@ -52,15 +52,17 @@ Quick commands in RHEL7 to create and email HTML report of most recent OpenSCAP 
 ## RELATED Articles
 
 Link: https://www.redhat.com/en/blog/using-openscap-help-achieve-hipaa-compliance-red-hat-enterprise-linux-83
-Has example for RHEL 8.3:
+### For RHEL7, just change 'ssg-rhel8-ds.xml' to either 'ssg-rhel7-ds.xml' or 'ssg-rhel7-ds-1.2.xml'
+
+### This example is for RHEL 8.3:
 ```
-# yum install openscap-scanner scap-security-guide
-
-# oscap xccdf eval --fetch-remote-resources --profile xccdf_org.ssgproject.content_profile_hipaa --results /tmp/scan.xml /usr/share/xml/scap/ssg/content/ssg-rhel8-ds.xml
-
-# oscap xccdf generate report /tmp/scan.xml > /tmp/report.html
+sudo yum install openscap-scanner scap-security-guide
+sudo oscap xccdf eval --fetch-remote-resources --profile xccdf_org.ssgproject.content_profile_hipaa --results /tmp/scan.xml /usr/share/xml/scap/ssg/content/ssg-rhel8-ds.xml
+sudo oscap xccdf generate report /tmp/scan.xml > /tmp/report.html
 ```
+## Try it live?
 
+Link: https://lab.redhat.com/tracks/openscap 
    
 ## ISSUES
 
